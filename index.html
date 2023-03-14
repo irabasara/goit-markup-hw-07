@@ -36,13 +36,13 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open " data-modal-open>
 <svg width="32" height="22" class="header-icon-burger">
   <use href="./images/sprite.svg#icon-burger"></use>
 
 </svg>
         </button>
-        <address>
+        <address class="address-container-header">
           <ul class="list address-container">
             <li class="phone-number">
               <a href="mailto:info@devstudio.com" class="link info"
@@ -56,6 +56,64 @@
             </li>
           </ul>
         </address>
+      </div>
+      <!-- mobile -->
+      <div class="mobile-menu" data-modal>
+        <div class="container mobile-menu-conteiner">
+        <button type="button" class="clouse-menu-btn" data-modal-close >
+          <svg width="8" height="8">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="list menu-mobile">
+          <li class="menu-item">
+            <a href="./index.html" class="link menu-link menu-link-active">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a href="./portfolio.html" class="link menu-link">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="link menu-link">Contacts</a>
+          </li>
+        </ul>
+        <address>
+          <ul class="list address-container">
+            
+            <li>
+              <a href="tel:+110001111111" class="link info phone-number">+11 (000) 111-11-11</a>
+            </li>
+            <li >
+              <a href="mailto:info@devstudio.com" class="link info mobile-info">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="social-list list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg></a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#twitter"></use>
+              </svg></a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg></a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#linkedin"></use>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
       </div>
     </header>
     <!-- main  -->
@@ -395,6 +453,6 @@
     </div>
     </div> -->
     <!-- <script src="./js/modal.js"></script> -->
-
+<script src="./js/mobile-menu.js"></script>
   </body>
 </html>
