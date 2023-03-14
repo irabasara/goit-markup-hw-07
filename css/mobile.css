@@ -1,0 +1,21 @@
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-header {
+    width: 480px;
+  }
+  .menu {
+    display: none;
+  }
+  .address-container {
+    display: none;
+  }
+  .header-icon-burger {
+    fill: var(--primary-text);
+  }
+}
