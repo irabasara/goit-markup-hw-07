@@ -2,4 +2,11 @@
   .container {
     width: 1158px;
   }
+  .menu {
+    margin-right: 76px;
+  }
+  .address-container {
+    display: flex;
+    gap: 40px;
+  }
 }
