@@ -66,7 +66,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/bg-tablet.jpg);
-    width: 100%;
+    width: 768px;
   }
   .hero-text {
     font-size: 56px;
@@ -74,6 +74,22 @@
     width: 496px;
     margin-bottom: 40px;
   }
+  /* =======feature========= */
+
+  .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature-list {
+    gap: 8px;
+    margin-bottom: 72px;
+  }
+  .feature-subtitle {
+    width: 356px;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
+  .feature-list-link {
+    display: none;
+  }
 }

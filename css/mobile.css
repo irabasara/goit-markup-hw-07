@@ -144,12 +144,26 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/bg-mobile.jpg);
-    width: 100%;
+    width: 480px;
   }
   .hero-text {
     font-size: 36px;
     line-height: 1.11;
     width: 380px;
     margin-bottom: 72px;
+  }
+  /* =======feature========= */
+
+  .feature-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-bottom: 8px;
+  }
+  .feature-subtitle {
+    padding-bottom: 72px;
   }
 }

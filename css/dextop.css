@@ -2,6 +2,10 @@
   .container {
     width: 1158px;
   }
+  section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
   .menu {
     margin-right: 76px;
   }
@@ -17,12 +21,41 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    width: 100%;
+    width: 1440px;
   }
   .hero-text {
     font-size: 56px;
     line-height: 1.07;
     width: 496px;
     margin-bottom: 40px;
+  }
+  /* =======feature========= */
+  .feature-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .feature-list:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .feature-text {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .feature-subtitle {
+    max-width: 264px;
+  }
+  .feature-list-prymiry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .feature-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background: var(--cloud-light-background);
+    border-radius: 4px;
   }
 }

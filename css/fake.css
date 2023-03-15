@@ -1,10 +1,5 @@
 /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
-section {
-  padding-bottom: 120px;
-  padding-top: 120px;
-}
-
 /* =================header===============  */
 
 /* .menu-item:not(:last-child) {
@@ -47,7 +42,7 @@ section {
 
 /* ===========main============== */
 /* ========hero============= */
-.hero {
+/* .hero {
   background-color: var(--primary-text);
   text-align: center;
   padding-bottom: 188px;
@@ -69,7 +64,7 @@ section {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* text-align: center; */
+  
   letter-spacing: 0.02em;
   color: var(--white);
   width: 496px;
@@ -97,7 +92,7 @@ section {
 .hero-btn:focus {
   background-color: var(--hover-ocean);
   color: var(--white);
-}
+} */
 
 /* =========feature-container=========== */
 
