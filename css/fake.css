@@ -141,7 +141,7 @@
 } */
 
 /* ====================team================ */
-.team-list {
+/* .team-list {
   display: flex;
   column-gap: 24px;
 }
@@ -175,9 +175,9 @@
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--hover-ocean);
-}
+} */
 /* ===========customers============= */
-.customers-title {
+/* .customers-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -221,94 +221,23 @@
 }
 .customers-list-item {
   width: calc((100% - 120px) / 6);
-}
+} */
 /* ===========footer============= */
-.footer-container {
-  background-color: var(--primary-text);
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.footer-btn {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris-brand-color);
-}
 
-.footer-btn-studio {
-  color: var(--cloud-light-background);
-}
-
-.footer-text {
-  width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--cornflower-accent-color);
-
-  margin-top: 16px;
-}
-.footer-container-logo {
-}
-
-.footer-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
-  color: var(--white);
-  margin-bottom: 16px;
-}
-.footer-list {
-  display: flex;
-}
-.footer-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--text-color-slate);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-list-link:hover,
-.footer-list-link:focus {
-  background-color: var(--green-succsses-color);
-}
-.footer-list-item:not(:last-child) {
-  margin-right: 16px;
-}
-.footer-flex-container {
+/* .footer-flex-container {
   display: flex;
   align-items: center;
 }
-.footer-list-icon {
-  fill: var(--cloud-light-background);
-}
+
 .social-media-container {
   width: 280px;
   margin-left: 120px;
 }
-.subscribe-container {
-  margin-left: auto;
-}
+
 .subscribe-form-container {
   display: flex;
 }
-.subscribe-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--white);
-  margin-bottom: 16px;
-}
+
 .footer-subscribe-input {
   width: 264px;
   height: 40px;
@@ -322,39 +251,7 @@
   padding-bottom: 8px;
   margin-right: 24px;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-subscribe-btn {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: var(--iris-brand-color);
-  border-radius: 4px;
-  border-color: var(--iris-brand-color);
-  width: 165px;
-  height: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-subscribe-btn:hover,
-.footer-subscribe-btn:focus {
-  background-color: var(--hover-ocean);
-  border-color: var(--hover-ocean);
-}
-/* .footer-btn-subscribe-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: var(--white);
 } */
-.subscribe-icon {
-}
 
 /* ===========portfolio============= */
 /* ===========portfolio============= */

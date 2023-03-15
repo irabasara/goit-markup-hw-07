@@ -21,7 +21,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    width: 1440px;
+    width: 1200px;
   }
   .hero-text {
     font-size: 56px;
@@ -76,5 +76,27 @@
   /* =======team===== */
   .team-list {
     flex-wrap: nowrap;
+  }
+  /* ===features===== */
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+  /* ===========footer============= */
+  .footer-container {
+    width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .social-media-container {
+    margin-left: 120px;
+  }
+  .subscribe-container {
+    margin-left: auto;
+  }
+  .footer-flex-container {
+    flex-wrap: nowrap;
+    column-gap: 0;
+    row-gap: 0;
+    margin-left: 0;
   }
 }
