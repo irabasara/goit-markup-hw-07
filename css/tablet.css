@@ -8,6 +8,9 @@
   .mobile-menu-open {
     display: none;
   }
+  .work-contanier {
+    display: none;
+  }
   .page-header {
     padding: 0;
   }
@@ -79,13 +82,20 @@
   .feature-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
-  .feature-list {
-    gap: 8px;
+  .feature-list:not(:nth-last-child(-n + 2)) {
     margin-bottom: 72px;
   }
   .feature-subtitle {
     width: 356px;
+  }
+  /* =======team===== */
+  .team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
   }
 }
 @media screen and (max-width: 1199px) {
