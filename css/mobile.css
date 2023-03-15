@@ -149,7 +149,7 @@
   .hero-text {
     font-size: 36px;
     line-height: 1.11;
-    width: 380px;
+    max-width: 380px;
     margin-bottom: 72px;
   }
   /* =======feature========= */
