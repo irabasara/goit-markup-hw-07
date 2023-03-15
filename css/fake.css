@@ -7,7 +7,7 @@ section {
 
 /* =================header===============  */
 
-.menu-item:not(:last-child) {
+/* .menu-item:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -43,7 +43,7 @@ section {
 }
 .page-header {
   border-bottom: 1px solid var(--cornflower-accent-color);
-}
+} */
 
 /* ===========main============== */
 /* ========hero============= */

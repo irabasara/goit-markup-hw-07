@@ -9,4 +9,20 @@
     display: flex;
     gap: 40px;
   }
+  .hero {
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    width: 100%;
+  }
+  .hero-text {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 40px;
+  }
 }
