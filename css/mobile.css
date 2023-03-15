@@ -83,7 +83,8 @@
   }
   .phone-number {
     display: block;
-    max-width: 356px;
+    width: 100%;
+
     font-weight: 700;
     font-style: normal;
     font-size: 36px;
