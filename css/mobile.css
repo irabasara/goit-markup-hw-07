@@ -149,6 +149,18 @@
       ),
       url(../images/bg-mobile.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/bg-mobile@2.jpg');
+    }
+  }
   .hero-text {
     font-size: 36px;
     line-height: 1.11;
