@@ -128,7 +128,9 @@
     row-gap: 72px;
     margin-left: 108px;
   }
-
+  .footer-subscribe-input {
+    margin-right: 24px;
+  }
   .subscribe-form-container {
     width: 453px;
     display: flex;
