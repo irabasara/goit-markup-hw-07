@@ -97,7 +97,10 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover-ocean);
+}
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -144,6 +147,14 @@ img {
   background-color: var(--hover-ocean);
   color: var(--white);
 }
+/* features */
+.feature-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* =======team========= */
 .team-container {
   background-color: var(--cloud-light-background);

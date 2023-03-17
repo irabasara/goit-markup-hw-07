@@ -99,12 +99,12 @@
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: var(--text-color-slate);
+    color: var(--iris-brand-color);
     margin-top: 284px;
   }
   .phone-number:hover,
   .phone-number:focus {
-    color: var(--iris-brand-color);
+    color: var(--hover-ocean);
   }
   .mobile-info {
     display: block;
@@ -118,7 +118,7 @@
   }
   .mobile-info:hover,
   .mobile-info:focus {
-    color: var(--iris-brand-color);
+    color: var(--hover-ocean);
   }
 
   .menu-social-list-link {
