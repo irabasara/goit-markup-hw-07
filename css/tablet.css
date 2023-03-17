@@ -130,6 +130,7 @@
     margin-left: 108px;
   }
   .footer-subscribe-input {
+    width: 264px;
     margin-right: 24px;
   }
   .subscribe-form-container {
@@ -139,6 +140,9 @@
 
   .footer-list {
     gap: 16px;
+  }
+  .modal {
+    width: 408px;
   }
 }
 @media screen and (max-width: 1199px) {
