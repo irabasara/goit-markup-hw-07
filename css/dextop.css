@@ -100,18 +100,24 @@
 
   /* ===========footer============= */
   .footer-container {
-    padding-left: 156px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
   .social-media-container {
-    margin-left: 120px;
+    margin-right: 80px;
   }
-  .subscribe-container {
+  .footer-container-logo {
+    margin-right: 120px;
+  }
+  /* .subscribe-container {
     margin-left: auto;
-  }
+  } */
   .footer-flex-container {
+    padding-left: 16px;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
     column-gap: 0;
+    row-gap: 0;
   }
 }

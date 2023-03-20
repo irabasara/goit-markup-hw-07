@@ -346,6 +346,9 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
+  overflow-y: auto;
+  width: 90%;
+  height: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
