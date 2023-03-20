@@ -347,7 +347,7 @@ img {
 }
 .modal {
   overflow-y: auto;
-  width: 90%;
+  width: 392px;
   height: 90%;
   position: absolute;
   top: 50%;

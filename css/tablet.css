@@ -8,7 +8,9 @@
   .mobile-menu-open {
     display: none;
   }
-
+  .modal {
+    width: 408px;
+  }
   .page-header {
     padding: 0;
   }
