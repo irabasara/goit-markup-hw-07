@@ -94,6 +94,15 @@
     flex-wrap: nowrap;
   }
   /* ===features===== */
+  .feature-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .feature-subtitle {
+    font-weight: 400;
+  }
   .customers-list {
     flex-wrap: nowrap;
   }
@@ -119,5 +128,12 @@
     flex-wrap: nowrap;
     column-gap: 0;
     row-gap: 0;
+  }
+  /* portfolio */
+  .potfolio-container {
+    padding-top: 96px;
+  }
+  .btn-container {
+    margin-bottom: 72px;
   }
 }
