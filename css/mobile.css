@@ -253,10 +253,13 @@
     padding-left: 16px;
   }
   .btn-container {
+    width: 270px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 16px;
     margin-bottom: 48px;
+  }
+  .portfolio-photo-container {
   }
 }
